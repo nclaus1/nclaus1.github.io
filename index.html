@@ -2,19 +2,15 @@
 <head>
 <SCRIPT LANGUAGE="JavaScript">
 
-/*
-Any-Month calendar script- Rob Patrick (rpatrick@mit.edu)
-Script featured on and available at:
-http://www.javascriptkit.com/
-*/
+
 
 function setToday() {
 var now   = new Date();
 var day   = now.getDate();
 var month = now.getMonth();
 var year  = now.getYear();
-if (year < 2000)    // Y2K Fix, Isaac Powell
-year = year + 1900; // http://onyx.idbsu.edu/~ipowell
+if (year < 2000)    
+year = year + 1900; 
 this.focusDay = day;
 document.calControl.month.selectedIndex = month;
 document.calControl.year.value = year;
