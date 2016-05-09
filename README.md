@@ -1,2 +1,2 @@
 # nclaus1.github.io
-get m'emed
+Nathan Claus Independent Studies.
